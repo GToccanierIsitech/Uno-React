@@ -1,0 +1,28 @@
+.HomePage{
+    background: linear-gradient(107.56deg, #FE5C03 0%, #D91A21 100%);
+    width: 100%;
+    height: 100vh;
+    
+    // Centrer le contenu
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    button{
+        background-color: #00000000;
+        border: 3px solid white;
+        color: #FFFFFF;
+        border-radius: 20px;
+        margin: 20px;
+        font-size: 30px;
+        width: 30%;
+        height: 70px;
+        min-width: 200px;
+    }
+
+    button:hover{
+        background-color: #00000050;
+        cursor: pointer;
+    }
+}
